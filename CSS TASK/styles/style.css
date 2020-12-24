@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(rgb(0, 102, 255) 0%, rgba(255,227,94,1) 100%);
+}
+
+.boxes{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    padding: 10px;
+    margin: 10px;
+    width: 125px;
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: ease-in 100ms;
+}
+
+.box:hover {
+    background-color: rgba(255, 255, 255, 0.507);
+}
+
+a {
+    text-decoration: none;
+}
